@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <title>Symbian Fantasy</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script type="text/javascript" charset="utf-8" src="main.js"/>
+</head>
+<body>
+    <h1>Download Game Jadul</h1>
+    <p>Tempat download permainan klasik favoritmu</p>
+
+    <select id="genreSelect" onchange="filterGames()">
+        <option value="all">Semua Genre</option>
+        <option value="platform">Platform</option>
+        <option value="puzzle">Puzzle</option>
+        <option value="arcade">Arcade</option>
+        <option value="shooter">Shooter</option>
+    </select>
+
+    <input type="text" id="searchInput" placeholder="Cari game..." onkeyup="filterGames()" />
+
+    <ul id="gameList">
+        <li data-genre="platform"><a href="download/mario.zip" download>Super Mario Bros</a> - Game platform legendaris</li>
+        <li data-genre="puzzle"><a href="download/tetris.zip" download>Tetris</a> - Puzzle klasik populer</li>
+        <li data-genre="arcade"><a href="download/pacman.zip" download>Pac-Man</a> - Ikon game arcade</li>
+        <li data-genre="shooter"><a href="download/contra.zip" download>Contra</a> - Shooter klasik</li>
+        <li data-genre="arcade"><a href="download/donkeykong.zip" download>Donkey Kong</a> - Game arcade petualangan</li>
+    </ul>
+
+    <footer>
+        <p>&copy; 2025 Download Game Jadul. Semua hak cipta dilindungi.</p>
+    </footer>
+</body>
+</html>

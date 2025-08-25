@@ -1,0 +1,91 @@
+        /* Font bergaya gaming, bisa pakai font Google Fonts "Press Start 2P" yang retro */
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+        body {
+            font-family: 'Press Start 2P', cursive, Arial, sans-serif;
+            max-width: 600px;
+            margin: 2rem auto;
+            background: linear-gradient(135deg, #050505 0%, #1a1a1a 100%);
+            color: #00ff99;
+            text-shadow: 0 0 5px #00ff99;
+            padding: 1rem;
+            border: 3px solid #00ff99;
+            border-radius: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+            color: #00ff99;
+            text-shadow: 0 0 10px #00ff99, 0 0 20px #00ff99;
+        }
+
+        p {
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 0.75rem;
+            color: #0f0;
+            text-shadow: 0 0 3px #0f0;
+        }
+
+        select, input[type="text"] {
+            width: auto;
+            padding: 0.75rem;
+            font-size: 0.85rem;
+            margin-bottom: 1rem;
+            border: 2px solid #00ff99;
+            border-radius: 5px;
+            background: #111;
+            color: #00ff99;
+            box-shadow: 0 0 5px #00ff99;
+            transition: all 0.3s ease;
+        }
+
+        select:hover, input[type="text"]:hover,
+        select:focus, input[type="text"]:focus {
+            outline: none;
+            background: #003300;
+            box-shadow: 0 0 15px #00ff99;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            margin: 0.8rem 0;
+            padding: 0.5rem;
+            border: 1px solid #00ff99;
+            border-radius: 7px;
+            background: #002200;
+            box-shadow: inset 0 0 8px #00ff99;
+            transition: background 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        li:hover {
+            background: #005500;
+            box-shadow: 0 0 15px #00ff99;
+        }
+
+        a {
+            color: #00ff99;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #00cc66;
+            text-shadow: 0 0 10px #00cc66;
+        }
+
+        footer {
+            margin-top: 3rem;
+            text-align: center;
+            font-size: 0.7rem;
+            color: #004400;
+            text-shadow: none;
+        }
